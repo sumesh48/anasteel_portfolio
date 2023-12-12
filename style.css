@@ -1,0 +1,172 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#container{
+    width: 100%;
+    height: 100vh; /* 1vh= 19.2px  100vh =>full screen hight*/
+    position: relative;/* positioned relative to its normal position.*/
+    background-color:white;
+
+}
+#logo{
+    width: 120px;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin-left: 100px;
+
+
+}
+.listitem{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+.links{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.links:hover{
+    color: red;
+}
+.title{
+    margin-left:8%;
+    margin-top:13%;
+}
+.title_h1{
+    font-size:45px;
+    margin-bottom:20px;
+}
+#lastname{
+    color: orange;
+
+}
+#downlod{
+    background-color: black;
+    color: white;
+    text-decoration:  none;
+    padding:10px 20px;
+    margin:30PX 0px;
+    display: inline-block;   /*it respect both and bottam padding  */
+    border-radius:10px;
+}
+.images{
+    width:45%;
+    height:85%;
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+}
+.imagegroup{
+    position: absolute;
+    height: 100%;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%);
+    transition: bottom 1s, left 2s;
+}
+.images:hover #shape{
+    bottom: 60px;
+}
+
+.images:hover #lady{
+    left: 40%;
+}
+#about{
+    margin: 13% 8% 0% 8%;
+}
+.heading{
+    text-align: center;
+}
+.heading h2{
+    font-size: 30px;
+}
+.heading span{
+    color: green;
+}
+.about_content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    margin-top: 2rem;
+}
+.about_image img{
+    width: 80%;
+    border-radius: 10px;
+}
+.about_para p{
+    text-align: justify;
+    font: size 18px; 
+    font-weight: 500;
+
+}
+.information{
+    margin-top:1 rem;
+}
+.info_box{
+    margin-bottom:1 rem;
+    align-items: center;
+    font-size: 18px;   
+}
+.info_box span{
+    margin-left: 1rem;
+}
+#skill{
+    margin:8% 8% 0px 8% ;
+}
+.skill_container{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap:2rem ;
+    margin-top:2rem ;
+}
+.skill_img{
+    width:50%;
+    padding-left:4rem ;
+    object-position:center;
+}
+.progress-bar{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    margin-bottom: 1rem ;
+    padding: 1rem 0 px;
+    position: relative;
+}
+.progress-bar span{
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+.base-bar{
+    width: 100%;
+        height: 0.5rem;
+        background-color: black;
+        position: absolute;
+        bottom: 0px;
+        border-radius: 0.5rem;
+}
+.html-bar{
+    background-color: orange;
+    width: 95%;
+
+}
+.css-bar{
+    background-color: orange;
+    width: 88%;
+}
+.js-bar{
+    background-color: orange;
+    width: 89%;
+}
+.react-bar{
+    background-color: orange;
+    width: 85%;
+}

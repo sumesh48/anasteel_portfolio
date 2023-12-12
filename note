@@ -1,0 +1,38 @@
+#about{
+    margin: 13% 8% 0% 8%;
+}
+.heading{
+    text-align: center;
+}
+.heading h2{
+    font-size: 35px;
+}
+.heading span{
+    color: green;
+    font-size:20px ;
+}
+.about_contant{  position: absolute;
+    bottom:0px;
+    right:40px ;
+}
+.imagegroup {
+    position: absolute;
+    height:100%;
+    bottom:0px;/*intial */
+    left:50%;/*intial */
+    transform: translateX(-50%);/*to remove
+    the left 50% effect */
+    transition: bottom 2s ,left 2s;
+}
+.images:hover #Shape{
+    bottom:70px;
+}
+.images:hover #lady{
+    left:40%;
+}
+#about{
+    margin: 13% 8% 0% 8%;
+}
+.heading{
+
+object position - object position eith 

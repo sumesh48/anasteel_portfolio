@@ -1,0 +1,60 @@
+*{
+    margin: 13px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.heading{
+    height: 600px;
+    width: 400px;
+    margin: auto;
+    margin-top: 10px;
+    font-weight: bolder;
+
+}
+.logo{
+    text-align: center;
+    color: black;
+}
+.detail-page{
+    width: 350;
+    border: 5px solid whitesmoke;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+detail{
+    margin-left: -20px;
+}
+input{
+    border-radius: 5px;
+    width: 300px;
+    height: 25px;
+}
+#link{
+    font-size: smaller;
+    text-decoration: none;
+    position: absolute;
+    right: 39%;
+    color: blue;
+}
+#submit{
+    background-color: green;
+    color: white;
+    font-size: large;
+    width: 300px;
+    border-radius: 5px;
+}
+.final-step{
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+}
+#last{
+    color:blue;
+    text-decoration: none;
+    font-weight: bolder;
+}
+#final{
+    color: blue;
+    text-decoration: none;
+}
